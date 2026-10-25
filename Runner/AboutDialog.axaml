@@ -3,6 +3,7 @@
         xmlns:materialIcons="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
         x:Class="FryCircuit.Plugin.Runner.AboutDialog"
         Title="About FryCircuit Studio"
+        Icon="/Assets/app-icon.png"
         Width="460" Height="320"
         CanResize="False"
         WindowStartupLocation="CenterOwner"
@@ -11,8 +12,8 @@
         <StackPanel Spacing="16" HorizontalAlignment="Center" VerticalAlignment="Center">
             <!-- Icon and Title -->
             <StackPanel Orientation="Horizontal" Spacing="14" HorizontalAlignment="Center">
-                <Border Width="50" Height="50" CornerRadius="12" Background="#1E293B" BorderBrush="#38BDF8" BorderThickness="1.5">
-                    <materialIcons:MaterialIcon Kind="Flash" Width="28" Height="28" Foreground="#38BDF8" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Border Width="50" Height="50" CornerRadius="12" ClipToBounds="True">
+                    <Image Source="/Assets/app-icon.png" Width="50" Height="50" />
                 </Border>
                 <StackPanel VerticalAlignment="Center">
                     <TextBlock Text="FryCircuit Studio" FontSize="20" FontWeight="Bold" Foreground="#F8FAFC" />

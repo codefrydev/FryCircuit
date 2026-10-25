@@ -5,6 +5,7 @@
         x:Class="FryCircuit.Plugin.Runner.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Title="{Binding CircuitTitle}"
+        Icon="/Assets/app-icon.png"
         Width="1420" Height="860"
         MinWidth="960" MinHeight="640"
         WindowStartupLocation="CenterScreen"

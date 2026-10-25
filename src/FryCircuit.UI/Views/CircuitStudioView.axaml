@@ -368,11 +368,8 @@
                     <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
                         <!-- App Title & Logo -->
                         <StackPanel Orientation="Horizontal" Spacing="5" VerticalAlignment="Center">
-                            <Border CornerRadius="{DynamicResource CircuitRadiusSm}" Width="26" Height="26" Background="{DynamicResource CircuitSurfaceHighBrush}"
-                                    BorderBrush="{DynamicResource CircuitBorderSubtleBrush}" BorderThickness="1">
-                                <material:MaterialIcon Kind="LightningBolt" Width="15" Height="15" 
-                                                       Foreground="{DynamicResource CircuitAccentBrush}" 
-                                                       HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Border CornerRadius="{DynamicResource CircuitRadiusSm}" Width="26" Height="26" ClipToBounds="True">
+                                <Image Source="avares://FryCircuit.UI/Assets/app-icon.png" Width="26" Height="26" />
                             </Border>
                             <StackPanel Orientation="Horizontal" Spacing="4" VerticalAlignment="Center">
                                 <TextBlock Text="FryCircuit" FontSize="{DynamicResource CircuitFontSizeTitle}" 

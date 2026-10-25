@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Assets/app-icon.svg" width="96" height="96" alt="FryCircuit Logo" />
+</p>
+
 # FryCircuit
 
 Industrial-grade electronic circuit design, real-time SPICE Modified Nodal Analysis (MNA) simulation, and schematic capture environment for the **FryWorld** ecosystem.
